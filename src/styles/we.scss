@@ -1,0 +1,23 @@
+.we{
+  margin-top: 47px;
+  padding: 196px 0 224px;
+  background: url("../images/we/webg.png") center/cover no-repeat;
+  &__title{
+    font-weight: 300;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 106px;
+    text-align: center;
+  }
+  &__item{
+    font-weight: 300;
+    font-size: 36px;
+    color: #FFFFFF;
+    list-style: square;
+    margin-bottom: 17px;
+  }
+  &__content{
+    display: flex;
+    justify-content: center;
+  }
+}

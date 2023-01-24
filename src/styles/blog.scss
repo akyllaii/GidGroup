@@ -1,0 +1,63 @@
+.blog{
+  padding: 55px 100px 14px;
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 105px 232px;
+    margin: 88px 0 23px;
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      border: 1px solid #BDBDBD;
+      height: 766px;
+      bottom: 5px;
+    }
+  }
+  &__card{
+    width: calc(50% - 116px);
+    &-btn{
+      font-weight: 300;
+      font-size: 14px;
+      color: #000000;
+      padding: 12px 30px;
+      cursor: pointer;
+      border: 1px solid #000000;
+      margin-top: 22px;
+      background: transparent;
+    }
+  }
+  &__subtitle{
+    font-weight: 300;
+    font-size: 14px;
+    color: #4F4F4F;
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    line-height: 147.69%;
+    margin: 11px 0 22px;
+  }
+  &__text{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 147.69%;
+    color: #4F4F4F;
+  }
+  &__btn{
+    display: flex;
+    align-items: center;
+    column-gap: 29px;
+    padding: 26px 47px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #000000;
+    position: relative;
+    left: 1220px;
+  }
+}

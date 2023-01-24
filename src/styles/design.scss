@@ -1,0 +1,50 @@
+.design{
+  padding: 12px 100px 13px;
+  &__card{
+    display: flex;
+    column-gap: 37px;
+    margin-top: 45px;
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      border: 1px solid #E0E0E0;
+      width: 1780px;
+      bottom: -30px;
+      left: -90px;
+    }
+  }
+  &__row{
+    position: relative;
+    &:after{
+      content: '';
+      position: absolute;
+      height: 2510px;
+      border: 1px solid #E0E0E0;
+      top: 0;
+      left: 380px;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      height: 2510px;
+      border: 1px solid #E0E0E0;
+      top: 0;
+      right: 540px;
+    }
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 28px;
+    background: #FAFF09;
+    width: 381px;
+    height: 59px;
+    color: #000000;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 197.69%;
+    color: #4F4F4F;
+  }
+}

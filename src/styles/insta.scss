@@ -1,0 +1,16 @@
+.insta{
+  padding: 92px 0 50px;
+  &__row{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  &__card{
+    width: calc(25% - 15px);
+  }
+  &__img{
+    width: 100%;
+  }
+}

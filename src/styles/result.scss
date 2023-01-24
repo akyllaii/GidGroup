@@ -1,0 +1,30 @@
+.result{
+  padding: 55px 0 78px;
+  &__row{
+    display: flex;
+    margin-top: 121px;
+    column-gap: 155px;
+  }
+  &__card{
+    &-grey{
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        width: 430px;
+        height: 302px;
+        left: -47px;
+        top: -38px;
+        background: #F5F5F5;
+        z-index: -1;
+      }
+    }
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 147.69%;
+    color: #000000;
+    margin-top: 18px;
+  }
+}

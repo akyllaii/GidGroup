@@ -1,0 +1,63 @@
+.projects{
+  padding: 12px 0 52px;
+  &__nav{
+    display: flex;
+    &-title{
+      font-weight: 300;
+      font-size: 14px;
+      color: #828282;
+      margin-bottom: 12px;
+    }
+    &-dark{
+      font-weight: 300;
+      font-size: 14px;
+      color: #0E0E0E;
+    }
+  }
+  &__btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 26px;
+  }
+  &__btn{
+    font-weight: 300;
+    font-size: 18px;
+    color: #4F4F4F;
+    padding: 20px 52px;
+    background: #F2F2F2;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+      background: #FAFF09;
+      transition: 0.5s;
+    }
+  }
+  &__row{
+    display: flex;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    margin: 28px 0 50px;
+  }
+  &__card{
+    width: calc(33.33333%);
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 28px;
+    margin: 18px 0 13px;
+    color: #000000;
+  }
+  &__subtitle{
+    font-weight: 300;
+    font-size: 24px;
+    color: #4F4F4F;
+  }
+  &__square{
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 13px;
+    color: #333333;
+  }
+}

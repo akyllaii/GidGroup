@@ -1,0 +1,33 @@
+.group{
+  padding-bottom: 30px;
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 137px 292px;
+    margin: 170px 0 72px;
+  }
+  &__card{
+    width: calc(50% - 146px);
+    display: flex;
+    column-gap: 30px;
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 28px;
+    color: #333333;
+  }
+  &__subtitle{
+    font-weight: 300;
+    font-size: 18px;
+    color: #4F4F4F;
+  }
+  &__text{
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 147.69%;
+    color: #4F4F4F;
+    margin-top: 28px;
+  }
+}

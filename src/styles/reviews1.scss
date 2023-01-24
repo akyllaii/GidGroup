@@ -1,0 +1,12 @@
+.reviews1{
+  padding: 12px 100px 0;
+  &__row{
+    display: flex;
+    column-gap: 20px;
+  }
+  &__right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

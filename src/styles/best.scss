@@ -1,0 +1,38 @@
+.best{
+  padding-bottom: 265px;
+  background: url("../images/best/bestbg.png") center/cover no-repeat;
+  &__header{
+    background: rgba(0, 0, 0, 0.4);
+    padding: 41px 100px 36px;
+    &-nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-call{
+      cursor: pointer;
+    }
+  }
+  &__title{
+    font-weight: 300;
+    font-size: 80px;
+    text-align: center;
+    color: #F2F2F2;
+    margin: 347px 0 193px;
+  }
+  &__btns{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+  }
+  &__btn{
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 25px 55px;
+    background: rgba(17, 17, 17, 0.6);
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+.container{
+  max-width: 1768px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.price__title{
+  font-weight: 300;
+  font-size: 48px;
+  color: #000000;
+  position: relative;
+  &:before{
+    content: '';
+    width: 200px;
+    height: 10px;
+    background: #000000;
+    bottom: -18px;
+    position: absolute;
+  }
+}
+
+@import "best";
+@import "garant";
+@import "price";
+@import "service";
+@import "our";
+@import "stage";
+@import "we";
+@import "insta";
+@import "catalog";
+@import "footer";
+@import "call";
+@import "projects";
+@import "request";
+@import "description";
+@import "process";
+@import "group";
+@import "result";
+@import "blog";
+@import "review";
+@import "swiper";
+@import "3d";
+@import "get";
+@import "contacts";
+@import "connect";
+@import "team";
+@import "blog1";
+@import "blog2";
+@import "reviews1";
+@import "menu";
+@import "design";
+@import "repair";
+@import "media";

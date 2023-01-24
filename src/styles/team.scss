@@ -1,0 +1,52 @@
+.team{
+  padding: 12px 100px 108px;
+  &__row{
+    display: flex;
+    column-gap: 118px;
+    margin-top: 221px;
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 177.19%;
+    margin: 55px 0 69px;
+    color: #333333;
+  }
+  &__reality{
+    margin-top: 269px;
+  }
+  &__img{
+    margin-top: 264px;
+  }
+  &__img1{
+    margin-top: 188px;
+  }
+  &__user{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px 170px;
+    margin-top: 81px;
+    &-top{
+      margin-top: 194px;
+    }
+    &-title{
+      font-weight: 500;
+      font-size: 28px;
+      margin-top: 29px;
+      color: #333333;
+    }
+    &-subtitle{
+      font-weight: 300;
+      font-size: 18px;
+      color: #4F4F4F;
+    }
+  }
+  &__card{
+    width: calc(33.33333% - 113.33333px);
+  }
+}

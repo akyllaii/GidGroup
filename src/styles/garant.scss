@@ -1,0 +1,31 @@
+.garant{
+  padding: 45px 0 92px;
+  &__row{
+    display: flex;
+    column-gap: 70px;
+    justify-content: center;
+    padding: 37px 91px 41px;
+    background: #F2F2F2;
+  }
+  &__number{
+    font-weight: 400;
+    font-size: 64px;
+    color: #0E0E0E;
+  }
+  &__title{
+    display: flex;
+    column-gap: 7px;
+    margin: 7px 0 16px;
+    &-text{
+      font-weight: 400;
+      font-size: 28px;
+      color: #0E0E0E;
+    }
+  }
+  &__info{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0E0E0E;
+  }
+}

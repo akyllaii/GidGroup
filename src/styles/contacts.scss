@@ -1,0 +1,38 @@
+.contacts{
+  padding: 12px 100px 62px;
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    margin-top: 94px;
+    color: #000000;
+  }
+  &__row{
+    display: flex;
+    column-gap: 237px;
+    margin-top: 25px;
+  }
+  &__card{
+    &-title{
+      font-weight: 300;
+      font-size: 24px;
+      color: #828282;
+    }
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #4F4F4F;
+    margin-top: 12px;
+  }
+  &__icons{
+    display: flex;
+    column-gap: 34px;
+    font-size: 41px;
+    color: #BDBDBD;
+    margin-top: 12px;
+  }
+  &__mobile{
+    margin-top: 53px;
+  }
+}

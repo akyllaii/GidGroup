@@ -1,0 +1,18 @@
+.get{
+  padding: 52px 0;
+  &__row{
+    display: flex;
+    column-gap: 193px;
+    padding: 32px 77px;
+    background: #F5F5F5;
+    margin-top: 121px;
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+  }
+  &__group{
+    margin-top: 70px;
+  }
+}

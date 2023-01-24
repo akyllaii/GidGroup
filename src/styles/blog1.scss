@@ -1,0 +1,47 @@
+.blog1{
+  padding: 12px 100px 112px;
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    margin: 77px 0 115px;
+    color: #000000;
+  }
+  &__row{
+    display: flex;
+    column-gap: 257px;
+  }
+  &__img{
+    position: relative;
+  }
+  &__data{
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    background: #FFFFFF;
+    padding: 21px 39px;
+    left: 0;
+    bottom: 0;
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 147.69%;
+    margin: 45px 0 40px;
+    color: #000000;
+  }
+  &__btn{
+    background: transparent;
+    padding: 12px 30px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #000000;
+    cursor: pointer;
+    margin-bottom: 115px;
+    &:hover{
+      color: #FFFFFF;
+      background: #333333;
+    }
+  }
+}

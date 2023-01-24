@@ -1,0 +1,51 @@
+.threed{
+  padding: 102px 100px 142px;
+  &__price{
+    margin: 180px 0 215px;
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 146.69%;
+    color: #000000;
+    margin: 142px 0 104px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 133px;
+  }
+  &__square{
+    width: 20px;
+    height: 20px;
+    background: #333333;
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    margin: 18px 0 35px;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 146.69%;
+    color: #4F4F4F;
+  }
+  &__garant{
+    font-weight: 500;
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 31px;
+  }
+  &__number{
+    font-weight: 400;
+    font-size: 48px;
+    color: #000000;
+  }
+  &__stage{
+    padding-top: 141px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 136px 82px;
+  }
+}
